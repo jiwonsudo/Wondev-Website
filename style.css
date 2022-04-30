@@ -64,7 +64,7 @@ hr {
 .title h2 {
     font-size: 30px;
     font-weight: 500;
-    margin-top: 100px;
+    margin: 100px 0 5px 0;
     text-align: center;
 }
 .title h1 {
@@ -76,9 +76,6 @@ hr {
 @media ( max-width: 500px ) {
     .wrapper {
         display: none;
-    }
-    nav {
-        background-color: white;
     }
 }
 @media ( hover: hover ) {
