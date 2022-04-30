@@ -6,30 +6,41 @@ body {
     padding: 0;
 }
 header {
-    min-width: 200px;
     width: 100%;
     position: fixed;
-    top: 0; left: 0; bottom: 0;
+    width: 10px;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
 .wrapper {
     align-items: center;
     display: flex;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
 }
 .wrapper img {
-    display: block;
+    display: inline;
     padding-left: 10px;
     width: 25px;
+    height: 25px;
 }
 .wrapper h1 {
+    display: inline;
     padding-left: 10px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 nav {
-    position: relative;
+    width: 100%;
+    top: 0;
+    padding-top: 1px;
+    position: fixed;
+    display: block;
+    background-color: white;
+}
+hr {
+    margin: 0;
+    border: 1px solid #a8a8a8;
 }
 .menu {
     font-size: 13px;
@@ -37,26 +48,41 @@ nav {
     font-weight: 500;
     list-style: none;
     display: flex;
-    line-height: 20px;
     justify-content: center;
     color: #a8a8a8;
+    padding: 0;
+    
 }
 .menu a {
     color: rgb(0, 0, 0);
-    display: block;
     padding: 0 18px 0;
     text-decoration: none;
 }
-header hr {
-    border: 1px solid #a8a8a8;
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+.title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+    text-align: center;
+}
+.title h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
 }
 @media ( max-width: 500px ) {
     .wrapper {
         display: none;
     }
+    nav {
+        background-color: white;
+    }
 }
-@media (hover: hover) {
-    nav ul li a:hover {
+@media ( hover: hover ) {
+    .menu li a:hover {
         color: #a8a8a8;
         text-decoration: none;
     }
