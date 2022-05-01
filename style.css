@@ -61,25 +61,45 @@ hr {
 }
 .title {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
-.title h2 {
+.title h1 {
     font-size: 30px;
     font-weight: 500;
-    margin: 100px 0 5px 0;
-    text-align: center;
+    margin: 220px auto 0;
     animation: fadeIn 1s;
 
 }
-.title h1 {
+.title h2 {
     font-size: 80px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px auto 10px;
+    animation: fadeIn 2s;
+}
+.title h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px auto 10px;
+    animation: fadeIn 3s;
+}
+.article {
+    animation: fadeIn 4s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     text-align: center;
-    animation: fadeIn 1s;
+    line-height: 25px;
+    margin: 130px 50px 0;
+    word-break: keep-all;
 }
 @media ( max-width: 500px ) {
     .wrapper {
         display: none;
+    }
+    .menu {
+        height: 10px;
+    }
+    .title h1 {
+        margin-top: 50%;
     }
 }
 @media ( hover: hover ) {
@@ -89,10 +109,13 @@ hr {
     }
 }
 @keyframes fadeIn {
-    from {
+    0% {
         opacity: 0;
     }
-    to {
+    50% {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }
