@@ -9,12 +9,18 @@ header {
     z-index: 2;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
 body {
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
 .wrapper {
     align-items: center;
     display: flex;
@@ -39,7 +45,7 @@ nav {
     display: block;
     background-color: white;
 }
-hr {
+nav hr {
     margin: 0;
     border: 1px solid #a8a8a8;
 }
@@ -59,6 +65,9 @@ hr {
     transition-duration: 0.2s;
     transition-property: color;
 }
+
+
+
 .title {
     text-align: center;
 }
@@ -98,13 +107,13 @@ hr {
     animation: fadeIn 5s;
 }
 .q1 {
-    margin: 100px auto 0px;
+    margin: 150px auto 0px;
 }
 .q1 h1 {
     font-weight: 300;
 }
 .q2 {
-    margin: 100px auto 0px;
+    margin: 150px auto 0px;
 }
 .q2 h1 {
     font-weight: 300;
@@ -119,6 +128,9 @@ hr {
     word-break: keep-all;
     animation: fadeIn 5s;
 }
+
+
+
 footer hr {
     width: 90%;
     border: 1px solid #a8a8a8;
