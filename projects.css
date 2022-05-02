@@ -89,21 +89,25 @@ section {
 }
 .quotes h1 {
     font-weight: 300;
+    animation: fadeIn 2s;
 }
 .quotes h2 {
     font-size: 15px;
     font-weight: 500;
+    animation: fadeIn 2s;
 }
 .quotes p {
     font-size: 13px;
     font-weight: 300;
     padding: 100px 0 0;
     color: #7a7a7a;
+    animation: fadeIn 3s;
 }
 .projects {
     text-align: center;
     width: 80%;
     margin: 150px auto 0;
+    animation: fadeIn 4s;
 }
 .projects h1 a {
     font-size: 25px;
