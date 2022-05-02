@@ -69,17 +69,17 @@ nav hr {
 
 
 section {
-    line-height: 25px;
     margin: 130px 50px 0;
     word-break: keep-all;
 }
 .title {
+    width: 80%;
     text-align: center;
     font-weight: 500;
-    margin: 200px auto 0px;
+    margin: 220px auto 0px;
 }
 .title h1 {
-    font-size: 50px;
+    font-size: 80px;
     animation: fadeIn 1s;
 }
 .quotes {
@@ -90,6 +90,31 @@ section {
 .quotes h1 {
     font-weight: 300;
 }
+.projects {
+    text-align: center;
+    width: 80%;
+    margin: 150px auto 0;
+}
+.projects h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.projects h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+.projects p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 50px auto 0;
+}
+.mobile {
+    margin: 30px 20px 0;
+    width: 200px;
+    box-shadow: 5px 5px 5px #7a7a7a;
+}
+
 
 
 
@@ -123,7 +148,7 @@ footer hr {
     font-size: 12px;
     margin: 40px auto 10px;
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 450px ) {
     .wrapper {
         display: none;
     }
@@ -132,6 +157,12 @@ footer hr {
     }
     .title h1 {
         margin-top: 50%;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .mobile {
+        width: 80%;
+        margin: 30px auto 0;
     }
 }
 @media ( hover: hover ) {

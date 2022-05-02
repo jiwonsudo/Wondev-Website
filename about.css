@@ -150,7 +150,7 @@ footer hr {
     font-size: 12px;
     margin: 40px auto 10px;
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 450px ) {
     .wrapper {
         display: none;
     }
@@ -159,6 +159,8 @@ footer hr {
     }
     .title h1 {
         margin-top: 50%;
+        font-size: 60px;
+        line-height: 60px;
     }
 }
 @media ( hover: hover ) {
