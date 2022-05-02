@@ -116,6 +116,7 @@ section {
 .projects h2 {
     font-size: 15px;
     font-weight: 300;
+    line-height: 25px;
 }
 .projects h3 {
     font-size: 13px;
@@ -132,6 +133,14 @@ section {
     margin: 30px 20px 0;
     width: 200px;
     box-shadow: 5px 5px 5px #7a7a7a;
+}
+.program {
+    width: 450px;
+}
+.comingSoon h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 
@@ -182,6 +191,14 @@ footer hr {
     .mobile {
         width: 80%;
         margin: 30px auto 0;
+    }
+    .program {
+        width: 80%;
+    }
+}
+@media ( max-width: 600px ) {
+    .program {
+        width: 80%;
     }
 }
 @media ( hover: hover ) {
