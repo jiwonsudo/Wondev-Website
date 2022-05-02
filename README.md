@@ -1,3 +1,3 @@
 # Wondev-Website
 
-https://jiwonsudo.github.io/Wondev-Website/home
+https://jiwonsudo.github.io/Wondev-Website/
