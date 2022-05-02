@@ -79,6 +79,36 @@ section {
 .welcome {
     margin: 20px auto 0px;
 }
+footer hr {
+    width: 90%;
+    border: 1px solid #a8a8a8;
+    margin: 100px auto 0px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    margin: 20px auto 30px;
+    text-align: center;
+}
+.footer h1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer a {
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    transition-duration: 0.2s;
+    transition-property: color;
+}
+.footer span {
+    margin: 0 5px;
+    color: #a8a8a8;
+}
+.footer p {
+    font-size: 12px;
+    margin: 20px auto 10px;
+}
 @media ( max-width: 500px ) {
     .wrapper {
         display: none;
@@ -86,9 +116,16 @@ section {
     .menu {
         height: 10px;
     }
+    .title h1 {
+        margin-top: 50%;
+    }
 }
 @media ( hover: hover ) {
     .menu li a:hover {
+        color: #a8a8a8;
+        text-decoration: none;
+    }
+    .footer a:hover {
         color: #a8a8a8;
         text-decoration: none;
     }
