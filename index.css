@@ -3,7 +3,6 @@
 header {
     width: 100%;
     position: fixed;
-    width: 10px;
     left: 0;
     top: 0;
     z-index: 2;
@@ -161,7 +160,7 @@ footer hr {
     font-size: 12px;
     margin: 40px auto 10px;
 }
-@media ( max-width: 450px ) {
+@media ( max-width: 470px ) {
     .wrapper {
         display: none;
     }
