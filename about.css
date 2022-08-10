@@ -87,7 +87,7 @@ section {
 .portrait img{
     width: 200px;
     border-radius: 50%;
-    margin: 40px auto 40px;
+    margin: 40px auto;
     animation: fadeIn 2s;
 }
 .welcome {
