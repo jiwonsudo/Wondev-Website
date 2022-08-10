@@ -132,7 +132,7 @@ section {
     font-size: 15px;
     font-weight: 300;
     margin: 50px auto 0;
-}
+} 
 .mobile {
     margin: 30px 20px 0;
     width: 200px;
@@ -140,6 +140,12 @@ section {
 }
 .program {
     width: 450px;
+}
+.program_shadowed {
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 3px;
+    box-shadow: 4px 4px 6px 3px #999;
 }
 .comingSoon h1 {
     text-align: center;
@@ -202,6 +208,9 @@ footer hr {
 }
 @media ( max-width: 600px ) {
     .program {
+        width: 80%;
+    }
+    .program_shadowed {
         width: 80%;
     }
 }
