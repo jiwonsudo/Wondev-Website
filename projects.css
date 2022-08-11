@@ -145,7 +145,7 @@ section {
     width: 400px;
     margin: 20px auto;
     border-radius: 3px;
-    box-shadow: 4px 4px 6px 3px #999;
+    box-shadow: 2px 2px 8px 2px #4D4D4D;
 }
 .comingSoon h1 {
     text-align: center;
