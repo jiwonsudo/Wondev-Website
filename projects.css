@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #1e1e1e;
 }
 
 
@@ -87,33 +88,24 @@ section {
     margin: 0 auto;
     word-break: keep-all;
 }
-.quotes h1 {
-    font-weight: 300;
-    animation: fadeIn 2s;
-}
-.quotes h2 {
-    font-size: 15px;
-    font-weight: 500;
-    animation: fadeIn 2s;
-}
 .quotes p {
     font-size: 13px;
     font-weight: 300;
-    padding: 100px 0 0;
+    padding: 20px 0 0;
     color: #7a7a7a;
     animation: fadeIn 3s;
 }
 .projects {
     text-align: center;
     width: 80%;
-    margin: 150px auto 0;
+    margin: 100px auto 0;
     animation: fadeIn 4s;
 }
 .projects h1 a {
     font-size: 25px;
     font-weight: 500;
     text-decoration: none;
-    color: black;
+    color: #1e1e1e;
     transition-duration: 0.2s;
     transition-property: color;
 }
