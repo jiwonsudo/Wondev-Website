@@ -172,6 +172,9 @@ footer hr {
         font-size: 60px;
         line-height: 60px;
     }
+    .title h3 {
+      font-size: 17px;
+    }
 }
 @media ( hover: hover ) {
     .menu li a:hover {
