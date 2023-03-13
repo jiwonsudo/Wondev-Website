@@ -176,7 +176,7 @@ footer hr {
 }
 .footer p {
     font-size: 12px;
-    margin: 40px auto 10px;
+    margin: 20px auto 10px;
 }
 @media ( max-width: 450px ) {
     .wrapper {
