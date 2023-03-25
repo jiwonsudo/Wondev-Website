@@ -1,4 +1,4 @@
-const dDayText = document.querySelector('.dDayText');
+const dDayText = document.querySelector('.d-day-text');
 
 const dayWeMet = new Date("2023-01-18");
 const KOR_TIME_DIFF = 9 * 60 * 60 * 1000; // UTC + 9
