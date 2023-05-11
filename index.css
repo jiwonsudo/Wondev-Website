@@ -7,7 +7,6 @@ header {
     left: 0;
     top: 0;
     z-index: 2;
-    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -16,7 +15,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 
