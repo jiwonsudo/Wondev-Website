@@ -155,12 +155,9 @@ footer hr {
     margin: 0 5px;
     color: #a8a8a8;
 }
-.copyright {
-    font-size: 12px;
-    margin: 20px auto 10px;
-}
-.d-day-text {
-    font-size: 8pt;
+.footer p {
+  font-size: 12px;
+  margin: 20px auto 10px;
 }
 @media ( max-width: 470px ) {
     .wrapper {
